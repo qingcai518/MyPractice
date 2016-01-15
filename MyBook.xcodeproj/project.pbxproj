@@ -9,10 +9,28 @@
 /* Begin PBXBuildFile section */
 		CE527B941C462EDE00B68B57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE527B931C462EDE00B68B57 /* main.m */; };
 		CE527B971C462EDE00B68B57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE527B961C462EDE00B68B57 /* AppDelegate.m */; };
-		CE527B9A1C462EDE00B68B57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE527B991C462EDE00B68B57 /* ViewController.m */; };
-		CE527B9D1C462EDE00B68B57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE527B9B1C462EDE00B68B57 /* Main.storyboard */; };
 		CE527B9F1C462EDE00B68B57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE527B9E1C462EDE00B68B57 /* Assets.xcassets */; };
 		CE527BA21C462EDE00B68B57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE527BA01C462EDE00B68B57 /* LaunchScreen.storyboard */; };
+		CE527BAE1C4631BB00B68B57 /* LocalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE527BAD1C4631BB00B68B57 /* LocalViewController.m */; };
+		CE527BB11C46333000B68B57 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE527BB01C46333000B68B57 /* CollectionViewCell.m */; };
+		CE68C34A1C473094008EB3F1 /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE68C3491C473094008EB3F1 /* MyTabBarController.m */; };
+		CE68C34D1C473537008EB3F1 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE68C34C1C473537008EB3F1 /* UserViewController.m */; };
+		CE68C3501C473568008EB3F1 /* CloudViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE68C34F1C473568008EB3F1 /* CloudViewController.m */; };
+		CE68C3541C474A0F008EB3F1 /* MyBook.m in Sources */ = {isa = PBXBuildFile; fileRef = CE68C3531C474A0F008EB3F1 /* MyBook.m */; };
+		CE68C35B1C474F69008EB3F1 /* CloudBookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE68C35A1C474F69008EB3F1 /* CloudBookCell.m */; };
+		CE68C3611C478567008EB3F1 /* mybook.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE68C3601C478567008EB3F1 /* mybook.plist */; };
+		CE68C3651C4795E5008EB3F1 /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = CE68C3631C4795E5008EB3F1 /* image2.png */; };
+		CE68C3681C4795FB008EB3F1 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = CE68C3671C4795FB008EB3F1 /* image1.png */; };
+		CE68C37F1C4798EB008EB3F1 /* URLQueryBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = CE68C36A1C4798EB008EB3F1 /* URLQueryBuilder.m */; };
+		CE68C3801C4798EB008EB3F1 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CE68C36D1C4798EB008EB3F1 /* AFHTTPClient.m */; };
+		CE68C3811C4798EB008EB3F1 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE68C36F1C4798EB008EB3F1 /* AFHTTPRequestOperation.m */; };
+		CE68C3821C4798EB008EB3F1 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE68C3711C4798EB008EB3F1 /* AFImageRequestOperation.m */; };
+		CE68C3831C4798EB008EB3F1 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE68C3731C4798EB008EB3F1 /* AFJSONRequestOperation.m */; };
+		CE68C3841C4798EB008EB3F1 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE68C3751C4798EB008EB3F1 /* AFNetworkActivityIndicatorManager.m */; };
+		CE68C3851C4798EB008EB3F1 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE68C3781C4798EB008EB3F1 /* AFPropertyListRequestOperation.m */; };
+		CE68C3861C4798EB008EB3F1 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE68C37A1C4798EB008EB3F1 /* AFURLConnectionOperation.m */; };
+		CE68C3871C4798EB008EB3F1 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE68C37C1C4798EB008EB3F1 /* AFXMLRequestOperation.m */; };
+		CE68C3881C4798EB008EB3F1 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CE68C37E1C4798EB008EB3F1 /* UIImageView+AFNetworking.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +38,47 @@
 		CE527B931C462EDE00B68B57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE527B951C462EDE00B68B57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE527B961C462EDE00B68B57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CE527B981C462EDE00B68B57 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CE527B991C462EDE00B68B57 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CE527B9C1C462EDE00B68B57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE527B9E1C462EDE00B68B57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE527BA11C462EDE00B68B57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE527BA31C462EDE00B68B57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE527BAC1C4631BB00B68B57 /* LocalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalViewController.h; sourceTree = "<group>"; };
+		CE527BAD1C4631BB00B68B57 /* LocalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalViewController.m; sourceTree = "<group>"; };
+		CE527BAF1C46333000B68B57 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		CE527BB01C46333000B68B57 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		CE68C3481C473094008EB3F1 /* MyTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarController.h; sourceTree = "<group>"; };
+		CE68C3491C473094008EB3F1 /* MyTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarController.m; sourceTree = "<group>"; };
+		CE68C34B1C473537008EB3F1 /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
+		CE68C34C1C473537008EB3F1 /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+		CE68C34E1C473568008EB3F1 /* CloudViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudViewController.h; sourceTree = "<group>"; };
+		CE68C34F1C473568008EB3F1 /* CloudViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudViewController.m; sourceTree = "<group>"; };
+		CE68C3521C474A0F008EB3F1 /* MyBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBook.h; sourceTree = "<group>"; };
+		CE68C3531C474A0F008EB3F1 /* MyBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBook.m; sourceTree = "<group>"; };
+		CE68C3591C474F69008EB3F1 /* CloudBookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudBookCell.h; sourceTree = "<group>"; };
+		CE68C35A1C474F69008EB3F1 /* CloudBookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudBookCell.m; sourceTree = "<group>"; };
+		CE68C3601C478567008EB3F1 /* mybook.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mybook.plist; sourceTree = "<group>"; };
+		CE68C3631C4795E5008EB3F1 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image2.png; path = ../../../../Downloads/image2.png; sourceTree = "<group>"; };
+		CE68C3671C4795FB008EB3F1 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image1.png; path = ../../../../Downloads/image1.png; sourceTree = "<group>"; };
+		CE68C36A1C4798EB008EB3F1 /* URLQueryBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLQueryBuilder.m; sourceTree = "<group>"; };
+		CE68C36B1C4798EB008EB3F1 /* URLQueryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLQueryBuilder.h; sourceTree = "<group>"; };
+		CE68C36C1C4798EB008EB3F1 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		CE68C36D1C4798EB008EB3F1 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		CE68C36E1C4798EB008EB3F1 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		CE68C36F1C4798EB008EB3F1 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		CE68C3701C4798EB008EB3F1 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		CE68C3711C4798EB008EB3F1 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		CE68C3721C4798EB008EB3F1 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		CE68C3731C4798EB008EB3F1 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		CE68C3741C4798EB008EB3F1 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		CE68C3751C4798EB008EB3F1 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		CE68C3761C4798EB008EB3F1 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		CE68C3771C4798EB008EB3F1 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		CE68C3781C4798EB008EB3F1 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		CE68C3791C4798EB008EB3F1 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		CE68C37A1C4798EB008EB3F1 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		CE68C37B1C4798EB008EB3F1 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		CE68C37C1C4798EB008EB3F1 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		CE68C37D1C4798EB008EB3F1 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		CE68C37E1C4798EB008EB3F1 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +111,25 @@
 		CE527B911C462EDE00B68B57 /* MyBook */ = {
 			isa = PBXGroup;
 			children = (
+				CE68C3691C479805008EB3F1 /* AFNetworking */,
+				CE68C3621C4795CE008EB3F1 /* image */,
+				CE68C3551C474F20008EB3F1 /* cell */,
+				CE68C3511C4749F1008EB3F1 /* model */,
 				CE527B951C462EDE00B68B57 /* AppDelegate.h */,
 				CE527B961C462EDE00B68B57 /* AppDelegate.m */,
-				CE527B981C462EDE00B68B57 /* ViewController.h */,
-				CE527B991C462EDE00B68B57 /* ViewController.m */,
-				CE527B9B1C462EDE00B68B57 /* Main.storyboard */,
 				CE527B9E1C462EDE00B68B57 /* Assets.xcassets */,
 				CE527BA01C462EDE00B68B57 /* LaunchScreen.storyboard */,
 				CE527BA31C462EDE00B68B57 /* Info.plist */,
 				CE527B921C462EDE00B68B57 /* Supporting Files */,
+				CE527BAC1C4631BB00B68B57 /* LocalViewController.h */,
+				CE527BAD1C4631BB00B68B57 /* LocalViewController.m */,
+				CE68C3481C473094008EB3F1 /* MyTabBarController.h */,
+				CE68C3491C473094008EB3F1 /* MyTabBarController.m */,
+				CE68C34B1C473537008EB3F1 /* UserViewController.h */,
+				CE68C34C1C473537008EB3F1 /* UserViewController.m */,
+				CE68C34E1C473568008EB3F1 /* CloudViewController.h */,
+				CE68C34F1C473568008EB3F1 /* CloudViewController.m */,
+				CE68C3601C478567008EB3F1 /* mybook.plist */,
 			);
 			path = MyBook;
 			sourceTree = "<group>";
@@ -77,6 +140,63 @@
 				CE527B931C462EDE00B68B57 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE68C3511C4749F1008EB3F1 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CE68C3521C474A0F008EB3F1 /* MyBook.h */,
+				CE68C3531C474A0F008EB3F1 /* MyBook.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		CE68C3551C474F20008EB3F1 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				CE527BAF1C46333000B68B57 /* CollectionViewCell.h */,
+				CE527BB01C46333000B68B57 /* CollectionViewCell.m */,
+				CE68C3591C474F69008EB3F1 /* CloudBookCell.h */,
+				CE68C35A1C474F69008EB3F1 /* CloudBookCell.m */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		CE68C3621C4795CE008EB3F1 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				CE68C3671C4795FB008EB3F1 /* image1.png */,
+				CE68C3631C4795E5008EB3F1 /* image2.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		CE68C3691C479805008EB3F1 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CE68C36A1C4798EB008EB3F1 /* URLQueryBuilder.m */,
+				CE68C36B1C4798EB008EB3F1 /* URLQueryBuilder.h */,
+				CE68C36C1C4798EB008EB3F1 /* AFHTTPClient.h */,
+				CE68C36D1C4798EB008EB3F1 /* AFHTTPClient.m */,
+				CE68C36E1C4798EB008EB3F1 /* AFHTTPRequestOperation.h */,
+				CE68C36F1C4798EB008EB3F1 /* AFHTTPRequestOperation.m */,
+				CE68C3701C4798EB008EB3F1 /* AFImageRequestOperation.h */,
+				CE68C3711C4798EB008EB3F1 /* AFImageRequestOperation.m */,
+				CE68C3721C4798EB008EB3F1 /* AFJSONRequestOperation.h */,
+				CE68C3731C4798EB008EB3F1 /* AFJSONRequestOperation.m */,
+				CE68C3741C4798EB008EB3F1 /* AFNetworkActivityIndicatorManager.h */,
+				CE68C3751C4798EB008EB3F1 /* AFNetworkActivityIndicatorManager.m */,
+				CE68C3761C4798EB008EB3F1 /* AFNetworking.h */,
+				CE68C3771C4798EB008EB3F1 /* AFPropertyListRequestOperation.h */,
+				CE68C3781C4798EB008EB3F1 /* AFPropertyListRequestOperation.m */,
+				CE68C3791C4798EB008EB3F1 /* AFURLConnectionOperation.h */,
+				CE68C37A1C4798EB008EB3F1 /* AFURLConnectionOperation.m */,
+				CE68C37B1C4798EB008EB3F1 /* AFXMLRequestOperation.h */,
+				CE68C37C1C4798EB008EB3F1 /* AFXMLRequestOperation.m */,
+				CE68C37D1C4798EB008EB3F1 /* UIImageView+AFNetworking.h */,
+				CE68C37E1C4798EB008EB3F1 /* UIImageView+AFNetworking.m */,
+			);
+			name = AFNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +256,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE68C3611C478567008EB3F1 /* mybook.plist in Resources */,
 				CE527BA21C462EDE00B68B57 /* LaunchScreen.storyboard in Resources */,
+				CE68C3651C4795E5008EB3F1 /* image2.png in Resources */,
 				CE527B9F1C462EDE00B68B57 /* Assets.xcassets in Resources */,
-				CE527B9D1C462EDE00B68B57 /* Main.storyboard in Resources */,
+				CE68C3681C4795FB008EB3F1 /* image1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,23 +271,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE527B9A1C462EDE00B68B57 /* ViewController.m in Sources */,
+				CE68C3811C4798EB008EB3F1 /* AFHTTPRequestOperation.m in Sources */,
+				CE68C37F1C4798EB008EB3F1 /* URLQueryBuilder.m in Sources */,
+				CE527BAE1C4631BB00B68B57 /* LocalViewController.m in Sources */,
 				CE527B971C462EDE00B68B57 /* AppDelegate.m in Sources */,
+				CE68C3501C473568008EB3F1 /* CloudViewController.m in Sources */,
+				CE527BB11C46333000B68B57 /* CollectionViewCell.m in Sources */,
+				CE68C3541C474A0F008EB3F1 /* MyBook.m in Sources */,
+				CE68C34D1C473537008EB3F1 /* UserViewController.m in Sources */,
+				CE68C34A1C473094008EB3F1 /* MyTabBarController.m in Sources */,
+				CE68C3881C4798EB008EB3F1 /* UIImageView+AFNetworking.m in Sources */,
+				CE68C3861C4798EB008EB3F1 /* AFURLConnectionOperation.m in Sources */,
+				CE68C3871C4798EB008EB3F1 /* AFXMLRequestOperation.m in Sources */,
+				CE68C3821C4798EB008EB3F1 /* AFImageRequestOperation.m in Sources */,
+				CE68C3851C4798EB008EB3F1 /* AFPropertyListRequestOperation.m in Sources */,
+				CE68C3831C4798EB008EB3F1 /* AFJSONRequestOperation.m in Sources */,
 				CE527B941C462EDE00B68B57 /* main.m in Sources */,
+				CE68C3801C4798EB008EB3F1 /* AFHTTPClient.m in Sources */,
+				CE68C35B1C474F69008EB3F1 /* CloudBookCell.m in Sources */,
+				CE68C3841C4798EB008EB3F1 /* AFNetworkActivityIndicatorManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CE527B9B1C462EDE00B68B57 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE527B9C1C462EDE00B68B57 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CE527BA01C462EDE00B68B57 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -262,6 +392,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uluru.MyBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,6 +404,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uluru.MyBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -298,6 +430,7 @@
 				CE527BA81C462EDE00B68B57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
